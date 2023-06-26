@@ -27,8 +27,8 @@ height: 1400px;
 
 .logo{
 
-  width: 160px;
-  height: 130px;
+  width: 200px;
+  height: 110px;
   vertical-align: middle;
 
 }
@@ -100,9 +100,9 @@ font-size: larger;
   margin-top: 150px;
 }
 }
-/*galeries*/
+/*photos*/
 .gallery-bg{
-    background-color:#e3d68d;
+    background-color:hsl(61, 96%, 50%);
 }
 
 .mb-3 {
@@ -122,7 +122,7 @@ font-size: larger;
 
 .categories__item {
   padding: 5px 15px 5px 15px;
-  background-color:#ffcd42;
+  background-color:hsl(44, 100%, 63%);
   
   
   
@@ -155,8 +155,8 @@ border-radius: 10px;
 .tarif-bg{
   
     text-align: center;
-    color: black;
-    background-image: linear-gradient(to left, #dbbbcd, #c4c1bc, #dae8eb, #dbceef, #ccdbe0, #b2bbce, #c9d0d8, #dde2e5, #4eb7b25c, #f3f5f5, #cceef1, hsl(176, 29%, 88%));
+    color: hsl(37, 95%, 15%);
+    background-image: linear-gradient(to left, hsl(54, 89%, 57%), #f4f117, #e8dd0b, #f0d949, #f1d60a, #ffde0b, hsl(54, 91%, 50%), hsl(53, 89%, 50%), hsla(55, 94%, 54%, 0.851), #fbe80d, #dcd324, hsl(60, 92%, 53%));
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-style: dashed;
@@ -183,7 +183,7 @@ border-radius: 10px;
 }
 
 .address-main {
-  background-color: #d9c8c8;
+  background-color: #f4dc95;
   color: #FFFFFF;
   opacity: 0.9; 
   border-radius: 5px;
@@ -198,7 +198,7 @@ border-radius: 10px;
 }
 
 .contact-form {
-  background-color: #c5deee;
+  background-color: #888c8e;
   color: #FFFFFF;
   opacity: 0.9; 
   border-radius: 5px;
@@ -222,11 +222,11 @@ border-radius: 10px;
 }
 
 .custom-btn:hover {
-  background-color: #68e7b8;
+  background-color: #d8eee6;
 }
 
 #exampleModal {
-  background-color: #F4B942;
+  background-color: #f6dba6;
 }
 
 .modal-content {
