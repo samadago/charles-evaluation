@@ -122,9 +122,9 @@ font-size: larger;
 
 .categories__item {
   padding: 5px 15px 5px 15px;
-  background-color:hsl(44, 100%, 63%);
+  background-color:hsl(44, 100%, 63%)
   
-  
+  ;
   
   border-radius: 5px;
   -webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
