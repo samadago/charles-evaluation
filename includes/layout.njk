@@ -1,0 +1,126 @@
+   window.addEventListener('DOMContentLoaded'), function() {
+  
+    }
+
+
+// Ajoutez les variables pour les autres catégories de la galerie
+```
+
+2. /*Ajoutez un écouteur d'événement au clic sur chaque bouton de catégorie :*/
+
+```/*javascript*/
+
+categoryButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const categoryId = button.children[0].id;
+    updateGallery(weeding-list,pregnant-list,baby-list,couple-list,baptism-list,family-list,portrait-list);
+  });
+});
+
+
+3. /*Créez une fonction `updateGallery` pour afficher la galerie de la catégorie sélectionnée et masquer les autres catégories :*/
+
+javascript
+function updateGallery(bebe) {
+  // Masquer toutes les catégories de la galerie
+  weddingGallery.style.display = 'none';
+  pregnantGallery.style.display = 'none';
+  // Masquer les autres catégories
+  
+  // Afficher la galerie de la catégorie sélectionnée
+  if (categoryId === 'all') {
+    // Afficher toutes les catégories de la galerie
+    weddingGallery.style.display = 'block';
+    pregnantGallery.style.display = 'block';
+    babySection.style.display = 'block'; 
+    coupleSection.style.display = 'block'; 
+    baptismSection.style.display = 'block'; 
+    familySection .style.display = 'block';
+    portraitSection.style.display = 'block';
+    // Afficher les autres catégories
+    
+  } else if (categoryId === 'bebe') {
+    // Afficher la catégorie bébé
+    babySection.style.display = 'block';
+    // Masquer les autres catégories
+
+    coupleSection.style.display = 'none'; 
+    baptismSection.style.display = 'none'; 
+    familySection .style.display = 'none';
+    portraitSection.style.display = 'none';
+    weddingGallery.style.display = 'none';
+    pregnantGallery.style.display = 'none';
+    
+  } else if (categoryId === 'bapteme') {
+    // Afficher la catégorie baptême
+    baptismSection.style.display = 'block';
+    // Masquer les autres catégories
+    coupleSection.style.display = 'none'; 
+    babySection.style.display = 'none'; 
+    familySection .style.display = 'none';
+    portraitSection.style.display = 'none';
+    weddingGallery.style.display = 'none';
+    pregnantGallery.style.display = 'none';
+  }
+  
+  // Ajoutez des conditions pour les autres catégories de la galerie
+}
+
+
+
+4. /*Appelez la fonction `updateGallery` avec la catégorie par défaut pour afficher la galerie au chargement de la page :*/
+
+
+function updateGallery('all');
+
+
+/-------------------------------------------------------------/
+
+document.addEventListener('DOMContentLoaded', function() {
+  const categoryButtons = document.querySelectorAll('.categories__item');
+  const weddingPhotos = document.querySelectorAll('.img-wedding');
+  const pregnantPhotos = document.querySelectorAll('.img-pregnant');
+  const babyPhotos = document.querySelectorAll('.img-baby');
+  const couplePhotos = document.querySelectorAll('.img-couple');
+  const baptismPhotos = document.querySelectorAll('.img-baptism');
+  const familyPhotos = document.querySelectorAll('.img-family');
+  const portraitPhotos = document.querySelectorAll('.img-portrait');
+
+
+  categoryButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const categoryId = button.children[0].id;
+      updateGallery(wedding-list,pregnant-list,baby-list,couple-list,baptism-list,family-list,portrait-list);
+    });
+  });
+
+  function updateGallery(categoryId) {
+    categoryButtons.forEach(button => {
+      button.classList.remove('active');
+    });
+
+    galleryItems.forEach(item => {
+      item.style.display = 'none';
+    });
+
+    
+    const  = document.getElementById('wedding-list'); 
+    const  = document.getElementById('pregnant-list'); 
+    const  = document.getElementById('baby-list'); 
+    const  = document.getElementById('couple-list'); 
+    const  = document.getElementById('baptism-list'); 
+    const  = document.getElementById('family-list'); 
+    const   = document.getElementById('portrait-list'); 
+
+    selectedCategory.classList.add('active'); l
+
+    const galleryCategory = document.querySelectorAll(`.${categoryId}`);
+    galleryCategory.forEach(item => {
+      item.style.display = 'block';
+    });(
+    
+    )
+  }
+
+  updateGallery('all');
+});

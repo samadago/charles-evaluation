@@ -1,10 +1,9 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  font-family: garamond;
-  color:black ;
-  align-items: center;
-  scroll-behavior: smooth;
+margin:0px; {
+padding: 0px;
+font-family: garamond;
+color:black ;
+align-items:center;
+scroll-behavior: smooth;
 }
 
 .home-bg{
@@ -12,14 +11,14 @@ background-image:url(imgs/la\ lady.jpg) ;
 background-size: 300px 100px;
 height: 1400px;
 
-  } 
+} 
 
 
 .home-bg, .contact.bg {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
- 
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
 }
 
 
@@ -27,9 +26,9 @@ height: 1400px;
 
 .logo{
 
-  width: 200px;
-  height: 110px;
-  vertical-align: middle;
+width: 200px;
+height: 110px;
+vertical-align: middle;
 
 }
 
@@ -37,53 +36,53 @@ height: 1400px;
 /* header*/
 
 .link-light {
-  color: #dde1e8;
+color: #dde1e8;
 }
 
 .navbar {
-  display: flex;
-  position: relative;
-  
-  list-style-type: none;
+display: flex;
+position: relative;
+
+list-style-type: none;
 
 }
 
 .navbar a {
-  color: #2c2103;
-  text-decoration: none;
-  margin-right: 60px;
-  font-weight: 700;
+color: #2c2103;
+text-decoration: none;
+margin-right: 60px;
+font-weight: 700;
 font-size:x-large;
 }
-  
+
 .home-main {
-  height: 100vh;
-  
+height: 100vh;
+
 }
 
 .home-main.h1{
 
-  color: #FFFFFF;
+color: #FFFFFF;
 }
 
 /* footer*/
 
 svg {
-  color:black;
-  position: static;
-  margin: 10px;
+color:black;
+position: static;
+margin: 10px;
 
-  
+
 }
 
 
 svg:not(:root) {
-  overflow-clip-margin: content-box;
-  overflow: hidden;
+overflow-clip-margin: content-box;
+overflow: hidden;
 }
 
 em {
-  font-style:normal;
+font-style:normal;
 }
 
 
@@ -96,45 +95,45 @@ font-size: larger;
 
 
 @media screen and (min-width: 380.98px) { 
-  footer{
-  margin-top: 150px;
+footer{
+margin-top: 150px;
 }
 }
 /*photos*/
 .gallery-bg{
-    background-color:hsl(61, 96%, 50%);
+  background-color:hsl(61, 96%, 50%);
 }
 
 .mb-3 {
-  margin-bottom: 1rem;
+margin-bottom: 1rem;
 }
 .row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(var(--bs-gutter-y) * -1);
-  margin-right: calc(var(--bs-gutter-x) * -.5);
-  margin-left: calc(var(--bs-gutter-x) * -.5);
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+margin-top: calc(var(--bs-gutter-y) * -1);
+margin-right: calc(var(--bs-gutter-x) * -.5);
+margin-left: calc(var(--bs-gutter-x) * -.5);
 }
 
- 
+
 
 .categories__item {
-  padding: 5px 15px 5px 15px;
-  background-color:hsl(44, 100%, 63%)
-  
-  ;
-  
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
-  box-shadow: 0px 5px 10px 0px #FFFFFF;
-  position: relative;
-  transition: 0.2s ease-in;
+padding: 5px 15px 5px 15px;
+background-color:hsl(44, 100%, 63%)
+
+;
+
+border-radius: 5px;
+-webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
+box-shadow: 0px 5px 10px 0px #FFFFFF;
+position: relative;
+transition: 0.2s ease-in;
 }
 .categories__item:hover {
-  transform: scale(1.1);
-  
+transform: scale(1.1);
+
 
 }
 .img-fluid{
@@ -143,9 +142,9 @@ border-radius: 10px;
 
 }
 &:hover {
-  .gallery-bg {
-    filter: grayscale(0);
-  }
+.gallery-bg {
+  filter: grayscale(0);
+}
 }
 
 
@@ -153,13 +152,13 @@ border-radius: 10px;
 /*tarif*/
 
 .tarif-bg{
-  
-    text-align: center;
-    color: hsl(37, 95%, 15%);
-    background-image: linear-gradient(to left, hsl(54, 89%, 57%), #f4f117, #e8dd0b, #f0d949, #f1d60a, #ffde0b, hsl(54, 91%, 50%), hsl(53, 89%, 50%), hsla(55, 94%, 54%, 0.851), #fbe80d, #dcd324, hsl(60, 92%, 53%));
-    font-weight: 900;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-style: dashed;
+
+  text-align: center;
+  color: hsl(37, 95%, 15%);
+  background-image: linear-gradient(to left, hsl(54, 89%, 57%), #f4f117, #e8dd0b, #f0d949, #f1d60a, #ffde0b, hsl(54, 91%, 50%), hsl(53, 89%, 50%), hsla(55, 94%, 54%, 0.851), #fbe80d, #dcd324, hsl(60, 92%, 53%));
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-style: dashed;
 
 
 }
@@ -168,104 +167,104 @@ border-radius: 10px;
 
 /*contact*/
 .contact-bg {
-  background-image: url(imgs/camera-431119_1920.jpg);
+background-image: url(imgs/camera-431119_1920.jpg);
 }
 
 
 .rounded {
-  border-radius: var(--bs-border-radius);
+border-radius: var(--bs-border-radius);
 }
 .p-4 {
-  padding: 1.5rem;
+padding: 1.5rem;
 }
 .m-4 {
-  margin: 1.5rem;
+margin: 1.5rem;
 }
 
 .address-main {
-  background-color: #f4dc95;
-  color: #FFFFFF;
-  opacity: 0.9; 
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
-  box-shadow: 0px 5px 10px 0px #FFFFFF;
-  position: relative;
-  transition: 0.2s ease-in;
+background-color: #f4dc95;
+color: #FFFFFF;
+opacity: 0.9; 
+border-radius: 5px;
+-webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
+box-shadow: 0px 5px 10px 0px #FFFFFF;
+position: relative;
+transition: 0.2s ease-in;
 }
 
 .address-main:hover {
-  transform: scale(1.1);
+transform: scale(1.1);
 }
 
 .contact-form {
-  background-color: #888c8e;
-  color: #FFFFFF;
-  opacity: 0.9; 
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
-  box-shadow: 0px 5px 10px 0px #FFFFFF;
-  position: relative;
-  transition: 0.2s ease-in;
+background-color: #888c8e;
+color: #FFFFFF;
+opacity: 0.9; 
+border-radius: 5px;
+-webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
+box-shadow: 0px 5px 10px 0px #FFFFFF;
+position: relative;
+transition: 0.2s ease-in;
 }
 
 .contact-form:hover {
-  transform: scale(1.1);
+transform: scale(1.1);
 }
 
 .custom-btn {
-  background-color: #000000;
-  opacity: 1;
-  color: #FFFFFF;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
-  box-shadow: 0px 5px 10px 0px #FFFFFF;
+background-color: #000000;
+opacity: 1;
+color: #FFFFFF;
+border-radius: 5px;
+-webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
+box-shadow: 0px 5px 10px 0px #FFFFFF;
 }
 
 .custom-btn:hover {
-  background-color: #d8eee6;
+background-color: #d8eee6;
 }
 
 #exampleModal {
-  background-color: #f6dba6;
+background-color: #f6dba6;
 }
 
 .modal-content {
-  background-color: #000000;
+background-color: #000000;
 }
 
 .modal-title {
-  color: #FFFFFF;
+color: #FFFFFF;
 }
 
 .p-3 {
 
-  font-weight: 900;
+font-weight: 900;
 }
 
 
 
 
 /*********************************************************************
-                        Media queries 
+                      Media queries 
 **********************************************************************/
 
 @media screen and (min-width: 380.98px) {
-  .home-bg,.tarif-bg{
-  padding:0%;
-  padding-top: 80px;
-  }
-  
+.home-bg,.tarif-bg{
+padding:0%;
+padding-top: 80px;
 }
-  
-@media screen and (min-width: 1699.98px) {
- 
-  h1,  #titre{
-    font-size: 65px;
-    padding-top: 80px;
-  }
 
 }
-  
+
+@media screen and (min-width: 1699.98px) {
+
+h1,  #titre{
+  font-size: 65px;
+  padding-top: 80px;
+}
+
+}
+
 
 
 
